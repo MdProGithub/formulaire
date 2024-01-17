@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Créez un formulaire de demande de devis</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <h1>Demande de devis</h1>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="info" value="">
+            <br>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="info" value="">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="info" value="">
+            <fieldset>
+              <legend>Vous êtes :</legend>
+              <input type="radio" id="particulier" name="choices">
+              <label for="particulier">Un particulier</label>
+              <input type="radio" id="Un_professionel" name="choices">
+              <label for="Un_professionel">Un professionel</label>
+            </fieldset>
+            <label for="message">Votre message concerne :</label>
+            <select id="message">
+            <option value="Un store">Un store</option>
+            <option value="Une pergola">Une pergola</option>
+            <option value="Un kiosque">Un kiosque</option>
+            </select>
+            <br>
+            <label for="ZdT">Votre message :</label>
+            <textarea id="ZdT" cols="30" rows="10"></textarea>
+            <br>
+            <label for="submit">envoyer ma demande</label>
+            <input type="submit" name="send" value="soumettre" id="submit">
+        </form>
+    </body>
+
+</html>
